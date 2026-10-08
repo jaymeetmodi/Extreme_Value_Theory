@@ -53,9 +53,19 @@ The record is incomplete: not every calendar day has an observation. The analysi
 | Return level, 365 observations | ≈ 270 mm |
 | Return level, 7,300 observations | ≈ 551 mm (strong extrapolation, highly uncertain) |
 
+## Limitations
+
+- The station record is short and incomplete.
+- Rainfall is seasonal and may be temporally dependent; neither is modelled here.
+- Return levels at long horizons extrapolate far beyond the observed data.
+
+The project is intended to demonstrate the POT–GPD workflow rather than to give a full hydrological risk assessment.
+
 ## Tools
 
 Python (pandas, NumPy, SciPy, Matplotlib)
+
+## References
 
 - Coles, S. (2001). *An Introduction to Statistical Modeling of Extreme Values.* Springer.
 - Kratz, M. – work on EVT and tail risk modelling, as cited in the seminar report.
